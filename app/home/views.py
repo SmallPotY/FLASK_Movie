@@ -32,6 +32,7 @@ def change_filename(filename):
 
 # 主页
 @home.route('/<int:page>/', methods=['GET'])
+@home.route('/', methods=['GET'])
 def index(page=1):
     tags = Tag.query.all()
     page_data = Movie.query
