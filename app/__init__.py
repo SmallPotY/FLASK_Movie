@@ -5,14 +5,6 @@ import os
 
 app = Flask(__name__)
 
-# DIALECT = 'mysql'
-# DRIVER = 'pymysql'
-# USERNAME = 'root'
-# PASSWORD = 'yj19930621+-*/'
-# HOST = '127.0.0.1'
-# PORT = '3306'
-# DATABASE = 'teaching'
-#
 #
 # app.config['SQLALCHEMY_DATABASE_URI'] = "{}+{}://{}:{}@{}:{}/{}?charset=utf8".format(DIALECT, DRIVER, USERNAME, PASSWORD, HOST,
 #                                                                            PORT, DATABASE)
